@@ -7,7 +7,24 @@
     "airbnb",
     "plugin:storybook/recommended",
     "plugin:react/recommended",
-    "plugin:react/jsx-runtime"
+    "plugin:react/jsx-runtime",
+    /* 
+      This is what plugin:prettier/recommended expands to:
+      {
+        "extends": [
+          "prettier"
+        ],
+        "plugins": [
+          "prettier"
+        ],
+        "rules": {
+          "prettier/prettier": "error",
+          "arrow-body-style": "off",
+          "prefer-arrow-callback": "off"
+        }
+      }
+    */
+    "plugin:prettier/recommended"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,7 +33,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["react"],
+  "plugins": ["react", "prettier"],
   "rules": {
     "react/jsx-filename-extension": [
       1,
