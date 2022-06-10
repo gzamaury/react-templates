@@ -4,9 +4,10 @@
     "es2021": true
   },
   "extends": [
-    "plugin:react/recommended",
     "airbnb",
-    "plugin:storybook/recommended"
+    "plugin:storybook/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime"
   ],
   "parserOptions": {
     "ecmaFeatures": {
@@ -16,7 +17,20 @@
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {},
+  "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js"]
+      }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false
+      }
+    ]
+  },
   "overrides": [
     {
       "files": ["*.stories.@(ts|tsx|js|jsx|mjs|cjs)"],
