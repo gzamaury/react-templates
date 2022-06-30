@@ -1,3 +1,40 @@
+This template ships with the main React + Storybook + ESlint + Prettier configuration files you'll need to get up and running fast.
+
+## 🚅 Quick start
+
+1.  **Create the application.**
+
+    Use [degit](https://github.com/Rich-Harris/degit) to get this template.
+
+    ```shell
+    # Clone the template
+    npx degit gzamaury/react-templates my-new-project
+    ```
+
+1.  **Install the dependencies.**
+
+    Navigate into your new site’s directory and install the necessary dependencies.
+
+    ```shell
+    # Navigate to the directory
+    cd my-new-project/
+
+    # Install the dependencies
+    npm install
+    ```
+
+1.  **Open the source code and start editing!**
+
+    Open the `my-new-project` directory in your code editor of choice and building your first component!
+
+1.  **Browse your stories!**
+
+    Run `npm run storybook` to see your component's stories at `http://localhost:6006`
+
+#
+
+#
+
 # eslint-plugin-prettier [![Build Status](https://github.com/prettier/eslint-plugin-prettier/workflows/CI/badge.svg?branch=master)](https://github.com/prettier/eslint-plugin-prettier/actions?query=workflow%3ACI+branch%3Amaster)
 
 Runs [Prettier](https://github.com/prettier/prettier) as an [ESLint](https://eslint.org) rule and reports differences as individual ESLint issues.
