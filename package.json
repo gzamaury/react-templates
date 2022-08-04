@@ -15,6 +15,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build-locally": "PUBLIC_URL=/ react-scripts build",
+    "deploy-locally": "npm run build-locally && serve -ns build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
