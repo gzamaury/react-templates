@@ -43,7 +43,10 @@
         "planbcoding.vscode-react-refactor",
         "formulahendry.auto-close-tag",
         "formulahendry.auto-rename-tag",
-        "dsznajder.es7-react-js-snippets"
+        "dsznajder.es7-react-js-snippets",
+        "achil.vscode-javascript-repl",
+        "WallabyJs.quokka-vscode",
+        "zaaack.markdown-editor"
       ]
     }
   },
